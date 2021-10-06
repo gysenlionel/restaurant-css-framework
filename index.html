@@ -15,11 +15,12 @@
     <title>Burger Place</title>
 </head>
 
-<body>
+<body style="background: url(/images/bg5.jpg) repeat;">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12">
-                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <!---------------------------- Menu navigation -------------------------------------------->
+            <div class="col-12 g-0">
+                <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgba(17, 17, 17, 0.7);">
                     <div class="container-fluid" id="nav">
                         <a class="navbar-brand" href="#" id="logo-nav">
                             <div id="logo-nav1">
@@ -29,11 +30,11 @@
                         </a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
-                            aria-expanded="false" aria-label="Toggle navigation">
+                            aria-expanded="false" aria-label="Toggle navigation" id="btnham">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo02">
-                            <ul class="navbar-nav mr-auto mb-2 mb-lg-0" id="nav-liste">
+                            <ul class="navbar-nav mr-auto mb-2 mb-lg-0 text-center " id="nav-liste">
                                 <li class="nav-item">
                                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                                 </li>
@@ -54,11 +55,60 @@
                     </div>
                 </nav>
             </div>
-            <div class="col-12">
-
+            <!------------------------------------------- Article (main)  ----------------------------------------->
+            <!----------------- Jumbo --------------------------->
+            <div class="col-12" id="article">
+                <div class="col-12 mt-5 order-sm-5">
+                    <div class="h-100 p-5  border rounded-3 dark text-light"
+                        style="background-color: rgba(17, 17, 17, 0.7);" id="jombo">
+                        <div id="logo-article">
+                            Burger Place
+                            <img src="/images/burger-logo.png" id="burger-log">
+                        </div>
+                        <h2 class="text-light">Burger Place</h2>
+                        <p> Venez découvrir Burger Place dans un endroit atypique pas loin du centre-ville</p>
+                        <button class="btn btn-outline-secondary" type="button">Réservation</button>
+                    </div>
+                </div>
+                <!----------- Cards  --------------------------->
+                <div class="row" id="cards">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="card text-light" style="background-color: rgba(17, 17, 17, 0.7);">
+                            <div class="card-body border rounded-3 dark">
+                                <h5 class="card-title">Les nouveautés </h5>
+                                <p class="card-text">Venez découvrir nos nouveautés et goûter à nos somptueux burger.
+                                </p>
+                                <a href="#" class="btn btn-outline-secondary">nouveautés</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="card text-light" style="background-color: rgba(17, 17, 17, 0.7);">
+                            <div class="card-body border rounded-3 dark">
+                                <h5 class="card-title">Specialités</h5>
+                                <p class="card-text">Venez gouter à nos burger végétariennes</p>
+                                <a href="#" class="btn btn-outline-secondary">Végétariens</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-12">
-
+            <!-------------------------------------------- Footer  ------------------------------------------------->
+            <div class="col-12 text-light" style="background-color: rgba(17, 17, 17, 0.8);" id="footer">
+                <div class="row">
+                    <div class="col-12" id="logo">
+                        <a href="#"><img src="/images/fbk2.png" alt="logo facebook" id="fbk"></a>
+                        <a href="#"><img src="/images/four.png" alt="logo foursquare" id="four"></a>
+                        <a href="#"><img src="/images/trip.png" alt="logo tripadvisor" id="trip"></a>
+                        <a href="#"><img src="/images/yelp.png" alt="logo yelp" id="yelp"></a>
+                        <a href="#"></a>
+                    </div>
+                    <div class="col-12">
+                        <p id="titrefoot">
+                            Burger Place
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
