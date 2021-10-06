@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+
+/* #nav {
+  background-color: rgba(17, 17, 17, 0.7);
+} */
+
+/* #nav-liste li a {
+  color: rgb(252, 252, 251);
+} */
+#logo-nav1 {
+  height: 130px;
+  border: 3px rgb(255, 255, 255) solid;
+  border-radius: 7px / 8px;
+  background-color: rgba(28, 22, 20, 0.9);
+  padding: 5px 5px 0px 5px;
+  color: rgb(252, 252, 251);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Italianno", cursive;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+#burger-log {
+  filter: invert(100%);
+}
