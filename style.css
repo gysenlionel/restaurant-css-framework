@@ -45,6 +45,11 @@
   margin: auto;
 }
 
+#burger-log2 {
+  height: 150px;
+  filter: invert(100%);
+}
+
 #jombo {
   text-align: center;
 }
@@ -67,4 +72,43 @@
 
 #logo {
   text-align: center;
+}
+
+#logo a {
+  margin-right: 20px;
+}
+
+#logo img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+#logo img:hover {
+  transform: scale(1.4);
+  -webkit-transform: scale(1.4);
+  transform: scale(1.4);
+}
+
+#footernom {
+  text-align: center;
+}
+
+#titrefoot {
+  font-family: "Italianno", cursive;
+  font-size: 1.5em;
+}
+
+#contacter {
+  color: rgb(252, 252, 251);
+  text-decoration: none;
+}
+
+#contacter:hover {
+  border-bottom: 2px rgb(252, 252, 251) solid;
+}
+
+#footernom :first-child {
+  padding-top: 10px;
 }
