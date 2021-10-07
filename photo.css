@@ -1,0 +1,16 @@
+#burger2 {
+  margin-left: 15px;
+}
+
+#burger3 {
+  margin-left: 15px;
+}
+
+#cards {
+  display: flex;
+  justify-content: center;
+}
+
+#btn-pagi {
+  margin-left: 25px;
+}
