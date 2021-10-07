@@ -1,15 +1,140 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="photo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+        crossorigin="anonymous"></script>
+    <title>Photos - page 2</title>
 </head>
 
-<body>
-    <img src="/images/dish.jpg" alt="..." style="width: 200px; height: 200px;">
+<body style="background: url(/images/bg10.jpg); background-size: cover;">
+    <div class="container-fluid">
+        <div class="row">
+            <!---------------------------- Menu navigation -------------------------------------------->
+            <div class="col-12 g-0">
+                <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgba(17, 17, 17, 0.7);">
+                    <div class="container-fluid" id="nav">
+                        <a class="navbar-brand" href="index.html" id="logo-nav">
+                            <div id="logo-nav1">
+                                Burger Place
+                                <img src="/images/burger-logo.png" id="burger-log">
+                            </div>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+                            aria-expanded="false" aria-label="Toggle navigation" id="btnham">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo02">
+                            <ul class="navbar-nav mr-auto mb-2 mb-lg-0 text-center " id="nav-liste">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="menu.html">Menu</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="photo.html">Photos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="restaurant.html">Restaurant</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <!------------------------------------- Article -------------------------------------------------------->
+            <div id="cards">
+                <div class="card  text-white bg-secondary mb-3 border-info rounded-3" style="width: 26rem;"
+                    id="burger1">
+                    <img src="/images/dish4.jpg" class="card-img-top" alt="burger">
+                    <div class="card-body">
+                        <h5 class="card-title">Burger Végé</h5>
+                        <p class="card-text">Burger Végé avec du millet et de l'avocat, cheddar, salade, tomates,
+                            oignons rouges,
+                            sauce
+                            dallas</p>
+                    </div>
+                </div>
+                <div class="card text-white bg-secondary mb-3 border-info rounded-3" style="width: 26rem;" id="burger2">
+                    <img src="/images/dish5.jpg" class="card-img-top" alt="burger">
+                    <div class="card-body">
+                        <h5 class="card-title">Burger Tofu</h5>
+                        <p class="card-text">Burger Tofu avec des carottes et
+                            tofu,
+                            cheddar,
+                            oignons rouges, cornichons, sauce Tartare</p>
+                    </div>
+                </div>
+                <div class="card text-white bg-secondary mb-3 border-info rounded-3  " style="width: 26rem;"
+                    id="burger3">
+                    <img src="/images/dish6.jpg" class="card-img-top" alt="burger">
+                    <div class="card-body">
+                        <h5 class="card-title">Burger Poids</h5>
+                        <p class="card-text">Burger Poids avec petits poids à l'oeuf, cheddar, salade, tomates, oignons
+                            rouges,
+                            sauce
+                            giant</p>
+                    </div>
+                </div>
+            </div>
+            <!---------------------------------Pagination -------------------------------------------------------->
+            <nav aria-label="Page navigation example" id="btn-pagi">
+                <ul class="pagination">
+                    <li class="page-item">
+                        <a class="page-link" href="photo.html" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="photo.html">1</a></li>
+                    <li class="page-item active" aria-current="page"><a class="page-link" href="pagination.html">2</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="pagination2.html">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="pagination2.html" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <!-------------------------------------------- Footer  ------------------------------------------------->
+            <div class="col-12 text-light" style="background-color: rgba(17, 17, 17, 0.8);" id="footer">
+                <div class="row">
+                    <div class="col-12" id="logo">
+                        <a href="#"><img src="/images/fbk2.png" alt="logo facebook" id="fbk"></a>
+                        <a href="#"><img src="/images/four.png" alt="logo foursquare" id="four"></a>
+                        <a href="#"><img src="/images/trip.png" alt="logo tripadvisor" id="trip"></a>
+                        <a href="#"><img src="/images/yelp.png" alt="logo yelp" id="yelp"></a>
+                    </div>
+                    <div class="col-12" id="footernom">
+                        <p>
+                            <span id="titrefoot">Burger Place</span> | Restaurant street food | bruxelles,
+                            Belgique
+                            | <a href="contact.html" id="contacter">nous contacter</a>
+                        </p>
+                        <p>
+                            &copy; lionel
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
 </body>
 
 </html>
