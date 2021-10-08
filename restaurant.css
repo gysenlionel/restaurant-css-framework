@@ -71,6 +71,21 @@ h4 {
   border-radius: 7px / 7px;
   background-color: rgba(17, 17, 17, 0.7);
   color: whitesmoke;
-  /* margin-left: 1%;
-  padding-bottom: 1%; */
+}
+
+#map {
+  height: 350px;
+  border: 2px rgb(13, 202, 240) solid;
+  border-radius: 7px / 7px;
+}
+
+#horaire {
+  border: 2px rgb(13, 202, 240) solid;
+  border-radius: 7px / 7px;
+  background-color: rgba(17, 17, 17, 0.7);
+}
+
+#flexhor {
+  display: flex;
+  justify-content: space-between;
 }
