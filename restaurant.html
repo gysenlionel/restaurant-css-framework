@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="restaurant.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -56,10 +57,12 @@
                 </nav>
             </div>
             <!------------------------------------- Article -------------------------------------------------------->
-            <div class="col-12">
-                <div class="row">
-                    <div class="col-4 text-light">
+            <div class="col-12 mt-4">
+                <div class="row justify-content-center">
+                    <!--------------------------- About -------------------------------------------------------------->
+                    <div class="col-lg-4 col-sm-6 text-ligh" id="about">
                         <h4>About restaurant</h4>
+                        <hr>
                         <p>
                             Burger Place Brussels est un nouveau restaurant street food implanté dans le centre ville de
                             bruxelles.
@@ -75,22 +78,91 @@
                             et une de nos délicieuses sauces maison pour vos frites.
                         </p>
                     </div>
-                    <div class="col-4 text-light">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, eveniet. Magnam voluptatibus
-                        nulla, debitis eos ullam culpa temporibus, modi possimus ipsa, cumque sunt iste deleniti
-                        mollitia aperiam alias sapiente illum.
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur blanditiis sunt est
-                        nostrum aut ipsa velit minus nisi ab id perspiciatis autem optio, fuga vel distinctio ex ad
-                        architecto provident.
-
+                    <!---------------------------Story --------------------------------------------------------------->
+                    <div class="col-lg-3 col-sm-6 ms-lg-2 text-light" id="story">
+                        <h4>Story of Burger Place</h4>
+                        <hr>
+                        <p>
+                            Le Burger Place est l'oeuvre de deux jeunes entrepreneurs, tous juste diplômés
+                            à l'époque, qui sont tombés amoureux de la culture US, futuriste et underground.
+                        </p>
+                        <p>
+                            L'idée a germée, puis ils se sont lancé dans le projet et ont ouvert leurs premier
+                            restaurant à Brooklyn.<br />
+                            Le concept fonctionnnait bien, du coups d'autres restaurants ont vu le jour en Amérique,
+                            Japon, Asie et en Europe.
+                        </p>
                     </div>
-                    <div class="col-4 text-light">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse nam a sed enim deleniti
-                        laudantium illo eligendi exercitationem aspernatur! Nulla voluptatibus dolor non eligendi
-                        facilis soluta incidunt deleniti aperiam aliquid?
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita, sint beatae. Pariatur,
-                        voluptatem aliquam corrupti molestiae officiis ex praesentium modi, voluptas officia illum
-                        facilis sit necessitatibus obcaecati corporis. Consectetur, mollitia?
+                    <!---------------------------- Adresses ------------------------------------------------------------------------>
+                    <div class="col-lg-4 col-sm-12 text-light ms-lg-2" id="boxadress">
+                        <h4>Nos adresses</h4>
+                        <hr>
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div id="adresse1">
+                                        <h6>Brooklyn</h6>
+                                        <hr>
+                                        <p>
+                                            <img src="/images/location.png" id="location"> avenue Trump, 2015
+                                            Brooklyn<br />
+                                            <img src="/images/tel.png" id="tel"> 02/356.2145<br />
+                                            <img src="/images/mail.png" id="mail"><a
+                                                href="mailto : burgerplacebrooklyn@burgerplace.com" id="mailtxt">envoyé
+                                                nous
+                                                un
+                                                mail</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div id="adresse2">
+                                        <h6>Japan</h6>
+                                        <hr>
+                                        <p>
+                                            <img src="/images/location.png" id="location"> avenue Sangoko, 2015
+                                            Tokyo<br />
+                                            <img src="/images/tel.png" id="tel"> 09/556.2145<br />
+                                            <img src="/images/mail.png" id="mail"><a
+                                                href="mailto : burgerplaceTokyo@burgerplace.com" id="mailtxt">envoyé
+                                                nous un
+                                                mail</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-6 mt-2">
+                                    <div id="adresse3">
+                                        <h6>Asie</h6>
+                                        <hr>
+                                        <p>
+                                            <img src="/images/location.png" id="location"> avenue Taj, 2015 New
+                                            Delhi<br />
+                                            <img src="/images/tel.png" id="tel"> 09/5556.2145<br />
+                                            <img src="/images/mail.png" id="mail"><a
+                                                href="mailto : burgerplaceinde@burgerplace.com" id="mailtxt">envoyé nous
+                                                un
+                                                mail</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-6 mt-2">
+                                    <div id="adresse4">
+                                        <h6>Bruxelles</h6>
+                                        <hr>
+                                        <p>
+                                            <img src="/images/location.png" id="location"> avenue Léopold, 2015
+                                            Bruxelles<br />
+                                            <img src="/images/tel.png" id="tel"> 02/55.2145<br />
+                                            <img src="/images/mail.png" id="mail"><a
+                                                href="mailto : burgerplacebrussels@burgerplace.com" id="mailtxt">envoyé
+                                                nous
+                                                un
+                                                mail</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
