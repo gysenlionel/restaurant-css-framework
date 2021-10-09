@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 
 /************** Nav *********************************************/
 #logo-nav1 {
@@ -16,6 +17,10 @@
   font-weight: bold;
 }
 
+#logo-nav1:hover {
+  border: 3px rgb(13, 202, 240) solid;
+}
+
 #burger-log {
   filter: invert(100%);
 }
@@ -28,7 +33,30 @@
   margin-right: 15px;
 }
 
+.active {
+  border: 1px rgb(13, 202, 240) solid;
+  border-radius: 7px / 7px;
+}
+
+.nav-link:hover {
+  border: 1px rgb(13, 202, 240) dotted;
+  border-radius: 7px / 7px;
+  color: whitesmoke;
+}
 /************************* Article ************************************************/
+
+h4 {
+  font-family: "Dancing Script", cursive;
+}
+
+h5 {
+  font-family: "Dancing Script", cursive;
+}
+
+h3 {
+  font-family: "Dancing Script", cursive;
+}
+
 #logo-article {
   width: 200px;
   height: 200px;
@@ -60,6 +88,10 @@
   margin-top: 30px;
 }
 
+#burger {
+  font-family: "Italianno", cursive;
+  font-size: 1.6em;
+}
 /******************************** Footer *********************************************/
 
 #footer {
@@ -67,32 +99,25 @@
   padding-top: 15px;
 }
 
-#fbk,
-#yelp,
-#trip,
-#four {
-  filter: invert(100%);
-}
-
-#logo {
+#icons-social {
   text-align: center;
 }
 
-#logo a {
-  margin-right: 20px;
+#icons-social a {
+  margin-left: 20px;
 }
 
-#logo img {
-  -webkit-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
+#icons-social i {
+  font-size: 1.7em;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: whitesmoke;
 }
 
-#logo img:hover {
-  transform: scale(1.4);
+#icons-social i:hover {
   -webkit-transform: scale(1.4);
   transform: scale(1.4);
+  color: rgb(13, 202, 240);
 }
 
 #footernom {
@@ -110,7 +135,8 @@
 }
 
 #contacter:hover {
-  border-bottom: 2px rgb(252, 252, 251) solid;
+  border-bottom: 2px rgb(13, 202, 240) solid;
+  color: rgb(13, 202, 240);
 }
 
 #footernom :first-child {

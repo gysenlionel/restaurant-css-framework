@@ -11,3 +11,7 @@
   text-align: center;
   font-size: 1.8em;
 }
+
+.list-group-item {
+  background-color: rgba(17, 17, 17, 0.7);
+}

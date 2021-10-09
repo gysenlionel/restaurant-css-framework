@@ -1,0 +1,7 @@
+#form {
+  border: 2px rgb(13, 202, 240) solid;
+  border-radius: 7px / 7px;
+  padding: 5% 5% 5% 5%;
+  background-color: rgba(17, 17, 17, 0.8);
+  color: whitesmoke;
+}
