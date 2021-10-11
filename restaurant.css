@@ -1,16 +1,16 @@
-#location {
+.location {
   margin-right: 4px;
 }
 
-#tel {
+.tel {
   margin-right: 4px;
 }
 
-#mail {
+.mail {
   margin-right: 4px;
 }
 
-#mailtxt {
+.mailtxt {
   text-decoration: none;
   border-bottom: 1px whitesmoke solid;
   color: whitesmoke;
