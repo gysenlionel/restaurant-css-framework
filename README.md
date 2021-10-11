@@ -2,7 +2,7 @@
 
 ## Intro
 
-Dans le cadre d'un exercice de Becode, nous avons du faire un petit site web responsive en utilisant Bootstrap, pour un restaurant fictif
+Dans le cadre d'un exercice de Becode, nous avons du faire un petit site web responsive en utilisant Bootstrap 5, pour un restaurant fictif
 de notre choix.
 
 ## Les consignes
@@ -10,6 +10,15 @@ de notre choix.
 Voici le lien des consignes :
 
 [https://github.com/becodeorg/BXL-Swartz-5.34/blob/main/1.The-Field/10.Bootstrap/restaurant.adoc](https://github.com/becodeorg/BXL-Swartz-5.34/blob/main/1.The-Field/10.Bootstrap/restaurant.adoc)
+
+## Languages utilisés
+
+- HTML
+- CSS
+
+# Framework
+
+- Bootstrap 5
 
 ## Ce que j'aime
 
@@ -40,18 +49,18 @@ Qu'est ce qu'était un framework et comment utilisé Bootstrap. Comment comprend
 
 - [https://www.pexels.com/fr-fr/](https://www.pexels.com/fr-fr/)
 
-2. Docs utilisées :
+2. ### Docs utilisées :
 
 - [https://getbootstrap.com/docs/5.1/getting-started/introduction/](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
 - [https://www.pierre-giraud.com/bootstrap-apprendre-cours/](https://www.pierre-giraud.com/bootstrap-apprendre-cours/)
 - [https://www.youtube.com/playlist?list=PL5BcU-\_5Oa_o2nmu4eIVjrhxoT3jcQq8F](https://www.youtube.com/playlist?list=PL5BcU-_5Oa_o2nmu4eIVjrhxoT3jcQq8F)
 - [https://openclassrooms.com/fr/courses/6391096-creez-des-sites-web-responsive-avec-bootstrap-4](https://openclassrooms.com/fr/courses/6391096-creez-des-sites-web-responsive-avec-bootstrap-4)
 
-3. Icones utilisées :
+3. ### Icones utilisées :
 
 - [https://fontawesome.com/](https://fontawesome.com/)
 
-4. Police utilisées :
+4. ### Police utilisées :
 
 - [https://fonts.google.com/](https://fonts.google.com/)
 
