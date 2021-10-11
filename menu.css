@@ -15,3 +15,7 @@
 .list-group-item {
   background-color: rgba(17, 17, 17, 0.7);
 }
+
+small {
+  color: rgb(223, 215, 215);
+}

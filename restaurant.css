@@ -1,19 +1,13 @@
 #location {
-  width: 20px;
-  height: 20px;
-  filter: invert(100%);
+  margin-right: 4px;
 }
 
 #tel {
-  width: 20px;
-  height: 20px;
-  filter: invert(100%);
+  margin-right: 4px;
 }
 
 #mail {
-  width: 20px;
-  height: 20px;
-  filter: invert(100%);
+  margin-right: 4px;
 }
 
 #mailtxt {
