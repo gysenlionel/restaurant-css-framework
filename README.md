@@ -1,4 +1,6 @@
-# Exercice restaurant bootstrap
+# Exercice restaurant-css-framework
+
+[lien](https://gysenlionel.github.io/restaurant-css-framework/index.html) de l'exercice
 
 ## Intro
 
