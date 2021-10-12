@@ -16,7 +16,7 @@ Voici le lien des consignes :
 - HTML
 - CSS
 
-# Framework
+## Framework
 
 - Bootstrap 5
 
@@ -36,16 +36,16 @@ Voici le lien des consignes :
 
 Qu'est ce qu'était un framework et comment utilisé Bootstrap. Comment comprendre un nouveau framework et pouvoir l'utiliser rapidement.
 
-- Première approche dans le web design
-- comment structuré son DOM coté balises.
-- Pensez au responsive en structurant son DOM coté grille / colonnes.
+- Première approche dans le web design.
+- comment structurer son DOM côtés balises.
+- Pensez au responsive en structurant son DOM côtés grilles / colonnes.
 - faire une maquette (version papier)
-
-## Credits
 
 <hr>
 
-1. Photos utilisées :
+## Credits
+
+1. ### Photos utilisées :
 
 - [https://www.pexels.com/fr-fr/](https://www.pexels.com/fr-fr/)
 
@@ -66,7 +66,7 @@ Qu'est ce qu'était un framework et comment utilisé Bootstrap. Comment comprend
 
 ## Thanks
 
-A tout le groupe Schwartz pour l'entre aide apporté
+A tout le groupe Swartz pour l'entraide apporter
 
 [![Image](https://i.goopics.net/olcsqz.gif)](https://goopics.net/i/olcsqz)
 
