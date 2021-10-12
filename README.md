@@ -66,7 +66,7 @@ Qu'est ce qu'était un framework et comment utilisé Bootstrap. Comment comprend
 
 ## Thanks
 
-A tout le groupe Swartz pour l'entraide apporter
+A tout le groupe Swartz pour l'entraide apportée.
 
 [![Image](https://i.goopics.net/olcsqz.gif)](https://goopics.net/i/olcsqz)
 
